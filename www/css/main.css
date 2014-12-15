@@ -1,0 +1,89 @@
+@import url('//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css');
+ .carousel h2 {
+    margin: 0;
+    color: #666;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: "trebuchet ms", sans-serif;
+}
+.item {
+    background: #333;
+    text-align: center;
+    height: 300px !important;
+}
+input[type*="text"],
+input[type*="email"],
+textarea {
+    width: 100%;
+}
+a.scrollToTop {
+    width: 100px;
+    height: 130px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto Condensed', 'tahoma', 'Verdana', 'Geneva', sans-serif;
+    font-size: 13px;
+    background: url('../images/uparrow.png') no-repeat center center;
+    font-weight: none;
+    color: #444;
+    text-decoration: none;
+    position: fixed;
+    top: 75px;
+    right: 1px;
+    display: none;
+    -webkit-transition: 3s;
+    -moz-transition: 3s;
+    transition: 3s;
+    cursor: pointer;
+    z-index: 8;
+}
+
+
+.scrollToTop:hover {
+    text-decoration: none;
+}
+<!-- Bullet Navigator Skin Begin --> .jssorb05 div,
+.jssorb05 div:hover,
+.jssorb05 .av {
+    background: url(../images/b05.png) no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jssorb05 div {
+    background-position: -7px -7px;
+}
+.jssorb05 div:hover,
+.jssorb05 .av:hover {
+    background-position: -37px -7px;
+}
+.jssorb05 .av {
+    background-position: -67px -7px;
+}
+.jssorb05 .dn,
+.jssorb05 .dn:hover {
+    background-position: -97px -7px;
+}
+.jssorb21 div,
+.jssorb21 div:hover,
+.jssorb21 .av {
+    background: url(../images/b21.png) no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jssorb21 div {
+    background-position: -5px -5px;
+}
+.jssorb21 div:hover,
+.jssorb21 .av:hover {
+    background-position: -35px -5px;
+}
+.jssorb21 .av {
+    background-position: -65px -5px;
+}
+.jssorb21 .dn,
+.jssorb21 .dn:hover {
+    background-position: -95px -5px;
+}
+#footer {
+    clear: both;
+}
